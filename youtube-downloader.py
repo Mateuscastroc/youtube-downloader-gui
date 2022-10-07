@@ -17,12 +17,12 @@ optionDownload = int(input())
 
 if optionDownload == 1:
     videoDownload = ytVideo.streams.get_audio_only()
-    videoDownload.download('C:/Users/Mateus/Music')
+    videoDownload.download('C:\Temp')
 else:
     videoDownload = ytVideo.streams.get_highest_resolution()    
-    videoDownload.download('C:/Users/Mateus/Videos')
+    videoDownload.download('C:\Temp')
 
-
+#pyinstaller --onefile nome_do_arquivo_python.py
 
 # def youtubeDownloader ():
 #     print("Hello World")
