@@ -10,6 +10,8 @@
  pip install pytube
  
  After this you can just start the application trough command line.
+
+ GUI created with: https://doc.qt.io/qtforpython-6/gettingstarted.html#getting-started
  
  Just remember to update the paths where the files will be saved in your computer and have fun =)
 
